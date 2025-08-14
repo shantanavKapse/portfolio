@@ -89,7 +89,7 @@ export default function TechnicalMetrics() {
         >
           <h4 className="text-lg font-semibold text-gray-300">Team Impact</h4>
           <ul className="mt-2 space-y-2 text-gray-400">
-            <li>• Mentored and onboarded 5+ junior developers</li>
+            <li>• Mentored and onboarded junior developers</li>
             <li>• Led cross-functional teams in delivering high-impact features</li>
             <li>• Fostered a culture of code quality and consistent documentation</li>
           </ul>
@@ -102,9 +102,41 @@ export default function TechnicalMetrics() {
         >
           <h4 className="text-lg font-semibold text-gray-300">Innovation & Problem Solving</h4>
           <ul className="mt-2 space-y-2 text-gray-400">
-            <li>• Piloted automation initiatives saving 200+ monthly engineering hours</li>
+            <li>• Piloted automation initiatives saving 100+ monthly engineering hours</li>
             <li>• Introduced code review and CI policies improving test coverage to above 90%</li>
             <li>• Developed POCs for new tech adoption (e.g., serverless, event-driven architecture)</li>
+          </ul>
+        </motion.div>
+      </div>
+    </div>
+    {/* Machine Learning & AI */}
+    <div>
+      <h3 className="text-xl font-semibold mb-6 text-green-400">Machine Learning & AI</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
+        >
+          <h4 className="text-lg font-semibold text-gray-300">Model Development & Deployment</h4>
+          <ul className="mt-2 space-y-2 text-gray-400">
+            <li>• Built and deployed real-time fraud detection models reducing false positives by 25%</li>
+            <li>• Designed end-to-end ML pipelines processing a million events/day with sub-100ms inference</li>
+            <li>• Integrated automated retraining workflows ensuring model accuracy above 92% in production</li>
+          </ul>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
+        >
+          <h4 className="text-lg font-semibold text-gray-300">ML Ops & Optimization</h4>
+          <ul className="mt-2 space-y-2 text-gray-400">
+            <li>• Reduced model serving latency by 40% via quantization and vectorized inference</li>
+            <li>• Established monitoring and drift detection to trigger proactive retraining</li>
+            <li>• Led cross-team initiatives to integrate ML models into core products, increasing engagement by 18%</li>
           </ul>
         </motion.div>
       </div>

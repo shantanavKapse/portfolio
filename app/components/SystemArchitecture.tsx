@@ -34,6 +34,18 @@ export default function SystemArchitecture() {
 							],
 							tech: ['FastAPI', 'AWS S3', 'Google Cloud Storage', 'Azure Blob', 'RabbitMQ', 'Python', 'Docker'],
 						},
+						{
+							title: 'Real-time Fraud Detection System for Financial Transactions',
+							description: 'Developed and deployed a low-latency machine learning system to detect fraudulent transactions in real-time, reducing false positives and financial losses for a large-scale payment gateway.',
+							details: [
+								'Engineered end-to-end ML pipeline from data ingestion to deployment, to process over a million transactions/day',
+								'Implemented advanced feature engineering for behavioral patterns, device fingerprints, and geolocation anomalies',
+								'Trained ensemble models (XGBoost, LightGBM) with Bayesian hyperparameter optimization for improved precision-recall tradeoff',
+								'Deployed models as scalable microservices with REST APIs, enabling sub-100ms inference latency',
+								// 'Integrated model drift monitoring, automated retraining triggers, and A/B testing framework for continuous improvement'
+							],
+							tech: ['Python', 'Scikit-learn', 'LightGBM', 'XGBoost', 'FastAPI', 'Kafka', 'PostgreSQL', 'Redis', 'Docker', 'Kubernetes', 'MLflow', 'Prometheus', 'Grafana'],
+						}
 					].map((project, index) => (
 						<motion.div
 							key={index}

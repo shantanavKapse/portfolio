@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'Shantanav Kapse - Backend Developer Portfolio',
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
-		url: 'https://your-domain.com',
+		url: 'https://portfolio-shantanav.vercel.app',
 		siteName: 'Shantanav Kapse - Portfolio',
 		images: [
 			{

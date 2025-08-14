@@ -32,6 +32,8 @@ export default function HeroSection() {
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Django</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Flask</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">FastAPI</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Gen AI</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Machine Learning</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">AWS</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Docker</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Kubernetes</span>
